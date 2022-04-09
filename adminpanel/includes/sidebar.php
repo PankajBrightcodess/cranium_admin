@@ -85,7 +85,7 @@
                 </a>
               </li> -->
               <li class="nav-item">
-                <a href="#" class="nav-link  <?php if($page == 'product-list'){ echo 'active'; }?>">
+                <a href="customer_list.php" class="nav-link  <?php if($page == 'product-list'){ echo 'active'; }?>">
                   <i class="fas fa-clipboard-list nav-icon"></i>
                   <p>Customer List</p>
                 </a>
@@ -110,7 +110,7 @@
             </ul>
           </li> -->
           <li class="nav-item">
-            <a href="#" class="nav-link <?php if($page == 'order'){ echo 'active';} ?>">
+            <a href="health_checkup.php" class="nav-link <?php if($page == 'order'){ echo 'active';} ?>">
               <i class="fas fa-clipboard-list nav-icon"></i>
               <p>
                Health Checkup
@@ -118,7 +118,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link <?php if($page == 'order'){ echo 'active';} ?>">
+            <a href="electric_chain_hoist.php" class="nav-link <?php if($page == 'order'){ echo 'active';} ?>">
               <i class="fas fa-list-alt nav-icon"></i>
               <p>
                 Electric Chain Hoist
@@ -126,7 +126,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link <?php if($page == 'assignment'){ echo 'active';} ?>">
+            <a href="chain_pully.php" class="nav-link <?php if($page == 'assignment'){ echo 'active';} ?>">
               <i class="fas fa-trophy nav-icon"></i>
               <p>
                Chain Pully Block

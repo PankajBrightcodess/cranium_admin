@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include '../connection.php';
+include 'connection.php';
 function Imageupload($dir,$inputname,$allext,$pass_width,$pass_height,$pass_size,$newname){
 	// print_r($inputname);
 	// print_r($_FILES["$inputname"]["tmp_name"]);die;
@@ -76,7 +76,8 @@ if(isset($_POST['studentregister'])){
 	}
 }
 if(isset($_POST['adminlogin'])){
-	
+	// echo '<pre>';
+	// print_r($_POST);die;
 	$email=$_POST['email'];
 	$pass=$_POST['pass'];
 	$query="SELECT * FROM `myc_users` WHERE `email`='$email' and `vp`='$pass'";
